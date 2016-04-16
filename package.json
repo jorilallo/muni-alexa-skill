@@ -1,0 +1,16 @@
+{
+  "name": "MUNI Alexa Skill",
+  "version": "1.0.0",
+  "description": "Returns next 3 MUNIs for your stop",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.3.4",
+    "node-fetch": "^1.4.1",
+    "xml2js": "^0.4.16"
+  }
+}
