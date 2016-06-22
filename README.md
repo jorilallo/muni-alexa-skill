@@ -55,6 +55,7 @@ After this you'll need to deploy `lambda_function.zip` as a Lambda function:
 2. Set function name, e.g. `nextMuni` and select Node.js runtime
 3. Upload as a Zip file (`lambda_function.zip`) to Lambda function
 4. Use `index.handler` handler and select _Basic Execution Role_ for Role
-5. Create Lambda function. After creation, you need to copy ARN from top right corner to Alexa skill settings
+5. Create Lambda function. Click the "Event Sources" tab and select "Alexa Skills Kit"
+6. Finally, copy ARN from top right corner to your custom Alexa skill settings.
 
 Once you have completed these steps, and pointed Alexa skill to the Lambda function, you should be able to test your skill with your _"Alexa, ask arriving muni"_. While this isn't really natural, the list of [invocation words](https://developer.amazon.com/public/solutions/alexa/alexa-skills-kit/docs/supported-phrases-to-begin-a-conversation) is still somewhat limited.
